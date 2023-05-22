@@ -14,4 +14,3 @@ Si eres **usuario**, lee nuestro manual para el manejo de Isabl:
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-&#x20;
