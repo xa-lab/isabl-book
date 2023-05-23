@@ -385,3 +385,5 @@ class HelloWorldApp(AbstractApplication):
 * **Get notified when analyses fail**
 
 You can configure Isabl API to periodically check if any analysis has failed and send you email notifications. To do so, head to the admin site at `/admin/django_celery_beat/periodictask/add/` and in _Task (registered)_ select `isabl_api.tasks.report_status_change_task`, then create a 1 hour interval, and provide the following Keyword arguments `{"status": "FAILED", "seconds": 3600}` (i.e. _every hour check how many analyses failed in the past hour_):&#x20;
+
+<figure><img src="../.gitbook/assets/failed_task.png" alt=""><figcaption></figcaption></figure>

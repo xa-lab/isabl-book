@@ -145,15 +145,15 @@ Make sure that the fasta index is registered (as genome\_fasta\_fai) so that IGV
 
 Before starting, remember that field choices must have been added (see here). As soon as we register the choices, we'll be able to download an Excel form that will allow to register the samples with our custom metadata. First, we will create our first project. Although this can be done with the API, using the web interface is much faster here. Just go to [http://localhost:8000/](http://localhost:8000/) and click on the `+` icon on the upper right side of the page:
 
-Create a project easily with the web interface. GIF taken from [Isabl Docs](https://docs.isabl.io/quick-start#create-project).
+<figure><img src="../.gitbook/assets/web_create_project.gif" alt=""><figcaption><p>Create a project easily with the web interface. GIF taken from <a href="https://docs.isabl.io/quick-start#create-project">Isabl Docs</a>.</p></figcaption></figure>
 
 After that, it's possible to upload a badge by clicking on the darker `+` icon. A dialog will be open to make the submission. Additionaly, a link stating "**Get form**" will initiate the download of an Excel Macros file. When the file is filled, it can be dragged and dropped on the dialog. After pressing on "**Commit submission**", Isabl will read and check that the input is properly filled.&#x20;
 
-Sample metadata submission. GIF taken from [Isabl Docs](https://docs.isabl.io/quick-start#create-project).
+<figure><img src="../.gitbook/assets/web_submit_form.gif" alt=""><figcaption><p>Sample metadata submission. GIF taken from <a href="https://docs.isabl.io/quick-start#create-project">Isabl Docs</a>.</p></figcaption></figure>
 
 After the submission, a project will be similar to this one:&#x20;
 
-Overview of an Isabl project.
+<figure><img src="../.gitbook/assets/project.png" alt=""><figcaption><p>Overview of an Isabl project.</p></figcaption></figure>
 
 #### Importing experimental data
 
