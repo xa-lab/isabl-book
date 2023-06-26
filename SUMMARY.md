@@ -9,4 +9,8 @@
 
 ## Manual de usuario
 
-* [Page 2](manual-de-usuario/page-2.md)
+* [Análisis de muestras](manual-de-usuario/analisis-de-muestras.md)
+
+***
+
+* [Interpretación de resultados](interpretacion-de-resultados.md)
