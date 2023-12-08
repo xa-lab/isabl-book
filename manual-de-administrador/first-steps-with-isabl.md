@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # First steps with Isabl
 
 Isabl has been programmed to be easily shared. Indeed, it's a plug-and-play service. It relies on [docker compose](https://docs.docker.com/compose/), which runs different instances of [docker images](https://docs.docker.com/get-started/), allowing the service's installation to be fairly easy process.

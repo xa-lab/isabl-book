@@ -14,3 +14,4 @@
 ***
 
 * [Interpretación de resultados](interpretacion-de-resultados.md)
+* [Descarga de archivos](descarga-de-archivos.md)
