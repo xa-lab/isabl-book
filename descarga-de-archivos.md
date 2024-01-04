@@ -1,6 +1,10 @@
 ---
 description: Descargar fastq a partir de enlace
+coverY: 0
 layout:
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
@@ -55,4 +59,3 @@ Para descargar varios archivos (cada uno con su propio enlace web) de forma cons
    1. `chmod +x descargar_archivos.sh`
 5. Ejecutamos el script:
    1. `./descargar_archivos.sh`
-

@@ -152,14 +152,11 @@ psi from reference segment: 1.708657759200939
 
 Ejemplo completo:
 
-{% code overflow="wrap" lineNumbers="true" %}
-```
-(.isabl-cli) raquel@pinchinX:~$ /data/programs/docker_papaemmelab/toil_battenberg/toil_battenberg/recalculate_psi_rho.py --BAF 0.6 --logR -0.21 --nMajor 2 --nMinor 1
-rho from reference segment: 0.4999999999999997
+<pre data-overflow="wrap" data-line-numbers><code><strong>(.isabl-cli) raquel@pinchinX:~$ /data/programs/docker_papaemmelab/toil_battenberg/toil_battenberg/recalculate_psi_rho.py --BAF 0.6 --logR -0.21 --nMajor 2 --nMinor 1
+</strong>rho from reference segment: 0.4999999999999997
 psi from reference segment: 3.7834409195264374
 (.isabl-cli) raquel@pinchinX:~$ isabl apps-grch38 battenberg-3.5.2_refitcn -p DEM_H000021_T01_01_WG01 DEM_H000021_N01_01_WG01 -chr 9 --start-position 57539 --major-allele 2 --minor-allele 1
-```
-{% endcode %}
+</code></pre>
 
 Si el resultado es satisfactorio, se corre el comando pertinente. Para ello, se necesita el directorio donde se encuentra la información del reajuste, el cual se puede consultar en ![](<../.gitbook/assets/image (16).png>) y se tomará el último directorio que aparece (señalado en naranja en la siguiente imagen):
 

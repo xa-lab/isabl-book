@@ -62,6 +62,18 @@ En este punto, ya se pueden ver en Isabl los archivos con todas las variantes qu
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+Si no hubiese ninguna variante que revisar, la revisión se tendría que cerrar desde la consola con el siguiente comando:&#x20;
+
+`isabl apps-grch38 vep-annotation-1.1.0_finalise -p muestra/experimento_tumoral muestra/experimento_normal`&#x20;
+
+y añadir, tras comprobar que está bien el comando, `--commit`.
+
+Ejemplo: `isabl apps-grch38 vep-annotation-1.1.0_finalise -p DEM_H000041_T01_01_WG01 DEM_H000041_N01_01_WG01 --commit`
+
+
+
+
+
 En la tabla 1 del informe se recogerán las variantes recogidas en la oncoKB y en la tabla 2 aquellas que estén presentes y sean relevantes en genes asociados a cáncer.
 
 En el anexo, se incluirán otras variantes (tier 3) que cumplan X filtros (por determinar).
